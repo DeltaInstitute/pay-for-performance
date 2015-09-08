@@ -405,7 +405,7 @@ hr {
 	opacity: 0;
 }
 
-@media (max-width:768px) {
+@media not screen and (max-width: 760px) {
     header p, header a {
     opacity:0;
 	}
