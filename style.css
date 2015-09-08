@@ -22,7 +22,7 @@ input {
 .button {
 	color:#6a646a;
 	font-family: 'Cabin', sans-serif;
-	font-size:20px;
+	font-size:2em;
 	padding:10px 15px;
 	text-align: center;
 	background-color: #a5d9ea;
@@ -109,7 +109,7 @@ input {
 }
 
 #statusQuoText p { 
-	font-size: 24px;
+	font-size: 2.4em;
 }
 
 #statusQuoText.fade-in
@@ -136,7 +136,7 @@ input {
 }
 
 #newApproachText p { 
-	font-size: 24px;
+	font-size: 2.4em;
 }
 
 #newApproachText.fade-in
@@ -179,7 +179,8 @@ header {
 
 .jumbotron {
 	background-color: #a5d9ea;
-	padding: 10px 5%;
+	padding: 10px 3%;
+/*	font-size: 62.5%;*/
 }
 
 .container {
@@ -187,6 +188,7 @@ header {
 	right-align: auto;
 	left-align: auto;
 	max-width:1000px;
+	font-size: 62.5%;
 }
 
 .logo-info {
@@ -206,6 +208,13 @@ header {
 	height: auto;
 	}
 
+.button-background {
+	background: #A5D9EA;
+	position: relative;
+	height: auto;
+	font-size: 62.5%;
+}
+
 .sky .container {
 	background: #A5D9EA;
 	position: relative;
@@ -220,7 +229,7 @@ header {
 	text-align: center;
 	font-weight: 700;
 	font-family: 'Arvo', serif;
-	font-size: 30px;
+	font-size: 3em;
 	margin: 0px 50px 0px 50px;	
 }
 
@@ -237,7 +246,7 @@ p {
 	color: #6a646a;
 	background-color: #A5D9EA;
 	font-family: 'Cabin', sans-serif;
-	font-size: 150%;
+	font-size: 2em;
 	margin: 0px 0;
 	padding: 0;
 }
@@ -246,7 +255,6 @@ p {
 	color: #6a646a;
 	text-align: center;
 	font-family: 'Cabin', sans-serif;
-	font-size: 20px;
 	margin: 25px 0;	
 	z-index: 2;
 } 
@@ -254,7 +262,7 @@ p {
 ul.white, p.white {
 	color: #ffffff;
 	font-family: 'Cabin', sans-serif;
-	font-size: 18px;
+	font-size: 2em;
 	margin: 50px 50px 50px 0px;
 	background-color: #404041;
 	text-align: left;
@@ -272,7 +280,7 @@ ul.white, p.white {
 .logo-info p {
 	color: #fff;
 	background-color: #404041;
-	font-size: 15px;
+	font-size: 2em;
 }
 
 	
@@ -280,7 +288,7 @@ header p {
 	color: #fff;
 	text-align: center;
 	font-family: 'Cabin', sans-serif;
-	font-size: 15px;
+	font-size: 1.5em;
 	padding: 20px 0 0px 0px;
 	margin:0;
 	font-weight: 300;
@@ -291,7 +299,7 @@ h1	{
 	text-align: center;
 	font-family: 'Sanchez', serif;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 5.4em;
 	padding: 60px 0 20px 0;
 	z-index: 2;
 }
@@ -300,7 +308,7 @@ h2 {
 	color: #6a646a;
 	text-align: center;
 	font-family: 'Sanchez', serif;
-	font-size: 30px;
+	font-size: 3em;
 	margin: 25px 50px 0px 50px;
 }
 
@@ -310,7 +318,7 @@ h3 {
 	text-align: center;
 	font-weight: 700;
 	font-family: 'Sanchez', serif;
-	font-size: 30px;
+	font-size: 3em;
 	margin: 10px 50px 0px 50px;	
 }
 
@@ -320,14 +328,14 @@ h4 {
 	text-align: center;
 	font-family: 'Cabin', sans-serif;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 3em;
 	margin: 5px 0;
 }
 
 .logo-info h4 {
 	color: #fff;
 	text-align: left;
-	font-size: 20px;
+	font-size: 2.6em;
 	padding: 0;
 }
 	
@@ -336,7 +344,7 @@ h5 {
 	text-align: left;
 	font-weight: 700;
 	font-family: 'Sanchez', serif;
-	font-size: 30px;
+	font-size: 3em;
 	padding: 50px 0px 10px 0px;	
 }
 	
@@ -345,7 +353,7 @@ h6 {
 	text-align: center;
 	font-weight: 700;
 	font-family: 'Sanchez', serif;
-	font-size: 15px;
+	font-size: 1.5em;
 	padding: 50px 50px 50px 50px;	
 }
 
@@ -370,6 +378,10 @@ h6 {
 .sky li {
 	display: inline;
 	}
+
+.fa {
+	font-size: 1.6em;
+}
 
 
 /*Navigation */
@@ -402,12 +414,16 @@ nav a:hover img {
 
 
 hr {
+	color: #fff;
 	opacity: 0;
 }
 
-@media not screen and (max-width: 760px) {
-    header p, header a {
-    opacity:0;
+@media not screen and (min-width: 760px) {
+    header {
+    display: none;
+	}
+	hr {
+	opacity:.4;
 	}
 }
 
