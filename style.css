@@ -182,7 +182,8 @@ header {
 
 .jumbotron {
 	background-color: #a5d9ea;
-	padding: 10px 3%;
+	padding: auto 3%;
+	height: 100vh;
 /*	font-size: 62.5%;*/
 }
 
