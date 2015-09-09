@@ -440,7 +440,7 @@ hr {
 }
 
 
-@media screen and (max-device-width: 768px) and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-device-width: 768px) {
 	.jumbotron p, h4 {
 		font-size: 5em;
 	}
