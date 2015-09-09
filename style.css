@@ -183,7 +183,6 @@ header {
 .jumbotron {
 	background-color: #a5d9ea;
 	padding: auto 3%;
-	height: 100vh;
 /*	font-size: 62.5%;*/
 }
 
@@ -439,6 +438,11 @@ hr {
 	}
 }
 
+@media screen and (min-device-height: 700px) {
+	.jumbotron {
+		height: 100vh;
+	}
+}
 
 @media screen and (orientation: portrait) and (max-device-width: 768px) {
 	.jumbotron p, h4 {
