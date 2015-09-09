@@ -440,6 +440,17 @@ hr {
 }
 
 
+@media screen and (max-device-width: 768px) {
+	.jumbotron p, h4 {
+		font-size: 5em;
+	}
+	h1 {
+		font-size: 2em;
+	}
+
+}
+
+
 
 /*.jumotron h1 {
 	position: absolute;
